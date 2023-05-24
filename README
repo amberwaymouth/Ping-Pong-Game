@@ -1,0 +1,27 @@
+PONG GAME
+A simple version of pong that is designed to run on the UC fun kit 4.
+
+HOW TO PLAY
+Clone the git repository into ..ence260-ucfk4/assignment/
+Start with both boards facing each other with the IR comunication.
+compile the game onto the boards using make program twice.
+Push the navswitch down to play.
+To move the paddle use the NORTH and SOUTH directions with the navswitch.
+The game is over when one player fails to hit the ball.
+when game is over, push the navswitch to continue, and again to restart.
+
+
+NOTES
+Best to play somewhere dark so that IR comunications can be easily send between the two boards.
+Make sure you are in the right file directory: ../assignment/group_526/
+
+If you recieve the error:
+dfu-programmer: no device present.
+dfu-programmer: no device present.
+dfu-programmer: no device present.
+make: *** [Makefile:90: program] Error 1
+
+Then press the button closest to the naveswtch and try again.
+
+
+E. Sanders & A. Waymouth
